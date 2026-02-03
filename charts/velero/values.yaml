@@ -51,6 +51,9 @@ secretAnnotations: {}
 # Labels to add to the Velero deployment's. Optional.
 labels: {}
 
+# Annotations to only add to the Velero deployment's pod template. Optional.
+veleroAnnotations: {}
+
 # Annotations to add to the Velero deployment's pod template. Optional.
 #
 # If using kube2iam or kiam, use the following annotation with your AWS_ACCOUNT_ID
